@@ -5,8 +5,8 @@ Issue: Datacap Desktop panels cannot be viewed or edited in Visual Studio 2022.
 Resolution: Datacap Desktop has 32 bit panel controls. While they can be built in Visual Studio 2022, they cannot be viewed and edited in VS2022. The reason is due to VS2022 only supports 64 bit panel controls.
  
 Panel development needs to be performed using Visual Studio 2019. The panels can be viewed and edited. Once development is complete, the final build will need to be performed using Visual Studio 2022.
- 
-The issue will be resolved in a future version of Datacap.
+ The issue will be resolved in a future version of Datacap.
+
 ----------------------------------------------------------
 This repository is for the IBM Datacap Developer kit.
 
