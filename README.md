@@ -1,11 +1,16 @@
 # datacap-developer-kit
 -------------------------------------------------------
-Issue: Datacap Desktop panels cannot be viewed or edited in Visual Studio 2022.
- 
-Resolution: Datacap Desktop has 32 bit panel controls. While they can be built in Visual Studio 2022, they cannot be viewed and edited in VS2022. The reason is due to VS2022 only supports 64 bit panel controls.
- 
-Panel development needs to be performed using Visual Studio 2019. The panels can be viewed and edited. Once development is complete, the final build will need to be performed using Visual Studio 2022.
- The issue will be resolved in a future version of Datacap.
+Visual Studio Support for Datacap DDK Panel Development
+
+As Datacap Desktop (dcdesktop.exe) is currently a 32-bit application, DDK panels should be developed and tested using Visual Studio 2019. DDK panels developed exclusively in Visual Studio 2022 may experience design-time display or rendering issues due to architecture compatibility differences.
+
+Recommended steps are as follows:
+
+Use Visual Studio 2019 for DDK panel design, development, and validation.
+Perform all design-time and user interface testing in Visual Studio 2019.
+Use Visual Studio 2022 for final solution builds and compilation, if desired.
+
+Following this approach helps ensure proper panel rendering and compatibility with the current Datacap Desktop environment.
 
 ----------------------------------------------------------
 This repository is for the IBM Datacap Developer kit.
